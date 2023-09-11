@@ -29,7 +29,9 @@
                         <div class="row mb-3 align-items-center">
                             <label class="col-md-4 col-form-label text-md-end text-secondary">{{ __('AUTHOR') }}</label>
 
-                            <div class="col-md-6"> {{ $data['user']['name'] }}</div>
+                            <div class="col-md-6">
+                                {{ $data['user']['name'] }}
+                            </div>
                         </div>
                     </div>
                 </div>
